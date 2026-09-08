@@ -12,17 +12,8 @@
 #
 # Items are sorted by date, most recent first — order here does not matter.
 
-- date: "2026-08-10"
-  title: "Best Paper Award at ICALP 2026"
-  text: "Congratulations to Dr. Anna Kowalski, whose work on cache-oblivious data structures received the Best Paper Award."
-  link: "https://example.com/icalp-2026"
-  link_text: "Read more"
-
-- date: "2026-07-01"
-  title: "New group members"
-  text: "We are delighted to welcome James Wilson, who joins the group as a PhD student working on quantum algorithms."
-
-- date: "2026-06-05"
-  text: "The group is hosting the Foundations of Computing Workshop in September. Registration is now open."
-  link: "https://example.com/workshop"
-  link_text: "Workshop website"
+- date: "2026-08-1"
+  title: "Best Paper Award at SAGT'26"
+  text: "Congratulations to Edwin Lock (joint with Jugal Garg and Vijay Vazirani) for winning Best Paper at the International Symposium on Algorithmic Game Theory (SAGT) 2026."
+  link: "https://arxiv.org/abs/2606.09631"
+  link_text: "Paper"
