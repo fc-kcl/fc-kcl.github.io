@@ -9,6 +9,11 @@
 # date is treated as upcoming and listed last.
 #
 # Abstracts support markdown formatting.
+#
+# The [] below is an empty list, and keeps the file valid while there are no
+# talks. Delete it as soon as you add a real entry.
+
+# []
 
 # EXAMPLES
 # - title: "Optimal Algorithms for Dynamic Graph Connectivity"

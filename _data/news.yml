@@ -12,8 +12,8 @@
 #
 # Items are sorted by date, most recent first — order here does not matter.
 
-- date: "2026-08-1"
-  title: "Best Paper Award at SAGT'26"
-  text: "Congratulations to Edwin Lock (joint with Jugal Garg and Vijay Vazirani) for winning Best Paper at the International Symposium on Algorithmic Game Theory (SAGT) 2026."
-  link: "https://arxiv.org/abs/2606.09631"
-  link_text: "Paper"
+# - date: "2026-08-1"
+#   title: "Best Paper Award at SAGT'26"
+#   text: "Congratulations to Edwin Lock (joint with Jugal Garg and Vijay Vazirani) for winning Best Paper at the International Symposium on Algorithmic Game Theory (SAGT) 2026."
+#   link: "https://arxiv.org/abs/2606.09631"
+#   link_text: "Paper"

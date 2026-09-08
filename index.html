@@ -8,12 +8,15 @@ layout: default
     <div class="description">{{ home.about.description | markdownify }}</div>
 </section>
 
-{% if site.data.news and site.data.news.size > 0 %}
+{% comment %}site.data.news is false when the file is empty or fully commented out.{% endcomment %}
+{% assign no_news = '' | split: ',' %}
+{% assign news_data = site.data.news | default: no_news %}
+{% if news_data.size > 0 %}
 <hr class="divider">
 
 <section id="news" class="content-section">
     {% include section_head.html config=home.news %}
-    {% assign news_items = site.data.news | sort: 'date' | reverse %}
+    {% assign news_items = news_data | sort: 'date' | reverse %}
     {% if home.news.limit and home.news.limit > 0 %}
         {% assign news_items = news_items | slice: 0, home.news.limit %}
     {% endif %}
