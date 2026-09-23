@@ -20,7 +20,8 @@
 
 organisers:
   - name: "Dr Bart de Keijzer"
-    role: "Group Head"
+    role: "Head of Group"
+    job_title: "Senior Lecturer in Computer Science"
     email: "bart.de_keijzer@kcl.ac.uk"
 
 seminar_organiser:
@@ -48,6 +49,11 @@ members:
   - name: "Dr Christopher Hampson"
     email: "christopher.hampson@kcl.ac.uk"
     job_title: "Senior Lecturer in Computer Science (Education)"
+    website: "https://www.kcl.ac.uk/people/christopher-hampson"
+
+  - name: "Dr Panagiotis Kanellopoulos"
+    email: "panagiotis.kanellopoulos@kcl.ac.uk"
+    job_title: "Lecturer in Agent & Multi-Agent Systems"
     website: "https://www.kcl.ac.uk/people/christopher-hampson"
 
   - name: "Dr Agi Kurucz"
