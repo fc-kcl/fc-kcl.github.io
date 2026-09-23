@@ -75,7 +75,12 @@ members:
     email: "grigorios.loukides@kcl.ac.uk"
     job_title: "Senior Lecturer in Computer Science"
     website: "https://www.kcl.ac.uk/people/grigorios-loukides"
-
+  
+  - name: "Frederik Mallmann-Trenn"
+    email: "frederik.mallmann-trenn@kcl.ac.uk"
+    job_title: "Senior Lecturer in Computer Science (Data Science)"
+    website: "https://www.kcl.ac.uk/people/frederik-mallmann-trenn"
+    
   - name: "Dr Maria Polukarov"
     email: "maria.polukarov@kcl.ac.uk"
     job_title: "Reader in Computer Science"
