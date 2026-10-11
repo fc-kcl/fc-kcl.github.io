@@ -23,12 +23,22 @@ organisers:
     role: "Head of Group"
     job_title: "Senior Lecturer in Computer Science"
     email: "bart.de_keijzer@kcl.ac.uk"
+  
+  - name: "Dr Grigorios Loukides"
+    role: "Deputy Head of Group"
+    job_title: "Senior Lecturer in Computer Science"
+    email: "grigorios.loukides@kcl.ac.uk"
 
 seminar_organiser:
-  name: "Edwin Lock"
-  role: "Seminar Organiser"
-  email: "edwin.lock@kcl.ac.uk"
-  website: "https://www.kcl.ac.uk/people/edwin-lock"
+  - name: "Edwin Lock"
+    role: "Seminar Organiser"
+    email: "edwin.lock@kcl.ac.uk"
+    website: "https://www.kcl.ac.uk/people/edwin-lock"
+  
+  - name: "Rohit Vasishta"
+    role: "Seminar Organiser"
+    email: "rohit.vasishta@kcl.ac.uk"
+    website: "https://scholar.google.com/citations?user=RhdiZRQAAAAJ&hl=en"
 
 members:
   - name: "Dr Silvia Butti"
