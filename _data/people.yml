@@ -25,10 +25,10 @@ organisers:
     email: "bart.de_keijzer@kcl.ac.uk"
 
 seminar_organiser:
-  name: "TBC"
+  name: "Edwin Lock"
   role: "Seminar Organiser"
-  email: "tbc@kcl.ac.uk"
-  website: ""
+  email: "edwin.lock@kcl.ac.uk"
+  website: "https://www.kcl.ac.uk/people/edwin-lock"
 
 members:
   - name: "Dr Silvia Butti"
