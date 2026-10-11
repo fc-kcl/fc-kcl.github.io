@@ -18,7 +18,7 @@ exclude:
   - Gemfile.lock
   - README.md
   - prompt.md
-  - ada-seminars/
+  - fc-seminars/
   - vendor/
   - .sass-cache/
   - .jekyll-cache/
