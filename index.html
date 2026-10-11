@@ -51,11 +51,11 @@ layout: default
     <h2>{{ home.seminar.heading }}</h2>
     <div class="section-intro">{{ home.seminar.description | markdownify }}</div>
 
-    {% assign organiser = site.data.people.seminar_organiser %}
-    {% if organiser %}
+    {% assign organisers = site.data.people.seminar_organiser %}
+    {% if organisers %}
     <h3 class="subheading">{{ home.seminar.organiser_heading }}</h3>
     <ul class="people">
-        {% include person.html person=organiser %}
+        {% include people.html people=organisers %}
     </ul>
     {% endif %}
 
