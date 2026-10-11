@@ -80,7 +80,7 @@ home:
       assumed.
 
     # Heading above the seminar organiser's contact details.
-    organiser_heading: "Seminar organiser"
+    organiser_heading: "Seminar organisers"
 
     # Heading above the short list of talks on the home page.
     upcoming_heading: "Next and most recent talks"
