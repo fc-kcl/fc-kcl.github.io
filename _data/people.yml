@@ -154,12 +154,17 @@ affiliate_members:
     email: "letizia.gionfrida@kcl.ac.uk"
     job_title: "Lecturer in Computer Vision"
     website: "https://www.kcl.ac.uk/people/letizia-gionfrida"
-
+  
+  - name: "Dr David Kohan Marzag&atilde;o"
+    email: "david.kohan@kcl.ac.uk"
+    job_title: "Senior Lecturer in Artificial Intelligence (Academic Education)"
+    website: "https://kohan.uk"
+    
   - name: "Dr Stefanos Leonardos"
     email: "stefanos.leonardos@kcl.ac.uk"
     job_title: "Lecturer in Machine Learning"
     website: "https://www.kcl.ac.uk/people/stefanos-leonardos"
-
+    
   - name: "Prof Peter McBurney"
     email: "peter.mcburney@kcl.ac.uk"
     job_title: "Professor of Computer Science"
