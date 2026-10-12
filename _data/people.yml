@@ -38,7 +38,7 @@ seminar_organisers:
     email: "edwin.lock@kcl.ac.uk"
     website: "https://www.kcl.ac.uk/people/edwin-lock"
   
-  - name: "Rohit Prashanth Vasishta"
+  - name: "Rohit Vasishta"
     role: "Seminar Organiser"
     email: "rohit.vasishta@kcl.ac.uk"
     website: "https://scholar.google.com/citations?user=RhdiZRQAAAAJ&hl=en"
@@ -121,7 +121,7 @@ core_members:
     website: "https://www.kcl.ac.uk/people/carmine-ventre"
 
 students:
-  - name: "Rohit Prashanth Vasishta"
+  - name: "Rohit Vasishta"
     email: "rohit.vasishta@kcl.ac.uk"
     job_title: "PhD Student"
     website: "https://scholar.google.com/citations?user=RhdiZRQAAAAJ&hl=en"
