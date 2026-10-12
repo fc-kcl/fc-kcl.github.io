@@ -126,7 +126,9 @@ body {
     border-bottom: 1px solid #f0f0f0;
 }
 
-.talk:last-child {
+/* last-of-type, not last-child: on the home page the link button follows the
+   final talk. */
+.talk:last-of-type {
     border-bottom: none;
 }
 

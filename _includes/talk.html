@@ -42,7 +42,19 @@ Renders a single talk. Expects: include.talk
         {% endif %}
     </div>
     {% endif %}
-    <button class="btn-add-calendar" onclick="downloadCalendar('{{ talk.title | escape }}', '{{ talk.speaker | escape }}', '{{ talk.date }}', '{{ talk.time }}', '{{ talk.room }}', '{{ talk.abstract | strip_html | escape }}')">
+    {%- comment -%}
+    The talk details travel in data- attributes rather than as JavaScript string
+    arguments, so apostrophes and line breaks in them cannot break the click.
+    {%- endcomment -%}
+    {% if talk.date %}
+    <button class="btn-add-calendar" onclick="downloadCalendar(this.dataset)"
+            data-title="{{ talk.title | escape }}"
+            data-speaker="{{ talk.speaker | escape }}"
+            data-date="{{ talk.date | escape }}"
+            data-time="{{ talk.time | escape }}"
+            data-room="{{ talk.room | escape }}"
+            data-abstract="{{ talk.abstract | strip_html | escape }}">
         {{ labels.add_to_calendar }}
     </button>
+    {% endif %}
 </article>

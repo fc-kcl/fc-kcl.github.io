@@ -2,7 +2,7 @@
 # All text that appears on the site is configured here.
 #
 #   _data/site.yml               <- this file: every heading, label and paragraph
-#   _data/people.yml             <- organisers, members, affiliate members
+#   _data/people.yml             <- organisers, members, students
 #   _data/news.yml               <- group news items (optional section)
 #   _data/talks.yml              <- seminar talks
 #
@@ -50,7 +50,8 @@ home:
     # Show at most this many items on the home page (0 or omitted = show all).
     limit: 3
 
-  # The "People" section wraps the three lists below it.
+  # The "People" section wraps the four lists below it. Each list is hidden
+  # while its group in _data/people.yml has no entries.
   people:
     heading: "People"
     intro: ""
@@ -59,8 +60,12 @@ home:
     heading: "Organisers"
     intro: ""
 
-  members:
-    heading: "Members"
+  core_members:
+    heading: "Core Members"
+    intro: ""
+
+  students:
+    heading: "Students"
     intro: ""
 
   affiliate_members:
@@ -79,7 +84,7 @@ home:
       are all very welcome, and no prior familiarity with the speaker's area is
       assumed.
 
-    # Heading above the seminar organiser's contact details.
+    # Heading above the seminar organisers' contact details.
     organiser_heading: "Seminar organisers"
 
     # Heading above the short list of talks on the home page.
@@ -110,7 +115,7 @@ seminar_page:
     are all very welcome, and no prior familiarity with the speaker's area is
     assumed.
 
-    Contact the seminar organiser if you would like to give a talk or be added
+    Contact the seminar organisers if you would like to give a talk or be added
     to the mailing list.
 
   upcoming_heading: "Upcoming Talks"

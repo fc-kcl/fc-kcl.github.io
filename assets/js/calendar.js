@@ -1,4 +1,15 @@
-function downloadCalendar(title, speaker, date, time, room, abstract) {
+// Escapes text for an .ics property value (RFC 5545 section 3.3.11).
+function icsText(text) {
+    return (text || '')
+        .trim()
+        .replace(/\\/g, '\\\\')
+        .replace(/;/g, '\\;')
+        .replace(/,/g, '\\,')
+        .replace(/\r?\n/g, '\\n');
+}
+
+// Called with the button's dataset; see _includes/talk.html.
+function downloadCalendar({ title, speaker, date, time, room, abstract }) {
     const d = new Date(date);
     const ymd = d.toISOString().slice(0, 10).replace(/-/g, '');
 
@@ -13,9 +24,9 @@ function downloadCalendar(title, speaker, date, time, room, abstract) {
         'BEGIN:VEVENT',
         `DTSTART:${ymd}T${startTime}`,
         `DTEND:${ymd}T${endTime}`,
-        `SUMMARY:${title}`,
-        `DESCRIPTION:Speaker: ${speaker}\\n\\n${abstract || ''}`,
-        `LOCATION:${room || ''}`,
+        `SUMMARY:${icsText(title)}`,
+        `DESCRIPTION:Speaker: ${icsText(speaker)}\\n\\n${icsText(abstract)}`,
+        `LOCATION:${icsText(room)}`,
         'END:VEVENT',
         'END:VCALENDAR'
     ].join('\r\n');

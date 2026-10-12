@@ -9,7 +9,7 @@ King's College London. Everything on the site is edited through YAML files in
 | File | What it controls |
 | --- | --- |
 | `_data/site.yml` | **Every piece of text on the site**: titles, headings, section descriptions, button labels, footer. |
-| `_data/people.yml` | Everyone on the site, in four groups: `organisers`, `seminar_organiser`, `members`, `affiliate_members`. |
+| `_data/people.yml` | Everyone on the site, in five groups: `organisers`, `core_members`, `students`, `affiliate_members`, `seminar_organisers`. |
 | `_data/news.yml` | Group news items. Optional — the section is hidden when this file has no entries. |
 | `_data/talks.yml` | Seminar talks (upcoming and past). |
 
@@ -18,26 +18,29 @@ lines for new paragraphs.
 
 ## Pages
 
-- `/` — group home page: description, organisers, members, affiliate members,
-  seminar blurb, and the two talks closest to today (always including the next
-  upcoming one), with a link to the full seminar page.
+- `/` — group home page: description, organisers, core members, students,
+  affiliate members, seminar blurb, and the two talks closest to today (always
+  including the next upcoming one), with a link to the full seminar page.
 - `/seminar/` — full seminar page: all upcoming talks (soonest first) followed
   by all past talks (most recent first).
 
 ## Adding a member
 
-Add an entry under `members:` (or `affiliate_members:`) in `_data/people.yml`:
+Add an entry under `core_members:` (or `students:` or `affiliate_members:`) in
+`_data/people.yml`:
 
 ```yaml
-members:
+core_members:
   - name: "Dr. Jane Doe"
     email: "jane.doe@kcl.ac.uk"
     job_title: "Lecturer in Computer Science"   # optional
     website: "https://example.com/~jdoe"        # optional
 ```
 
-People appear in the order they are listed. Entries under `organisers:` take a
-`role:` (e.g. "Group Head") instead of a `job_title:`.
+People appear in the order they are listed, and a group with no entries is
+hidden. Entries under `organisers:` and `seminar_organisers:` take a `role:`
+(e.g. "Group Head") instead of a `job_title:`. The order of the groups on the
+home page is set in [index.html](index.html).
 
 Email and website show as small icons beside the name, keeping each entry to
 two lines. `website` takes one link per person — a personal homepage or a KCL
@@ -79,8 +82,8 @@ Only `title` and `speaker` are required. Talks are sorted automatically: those
 dated today or later show as upcoming, earlier ones as past. Order within the
 file does not matter.
 
-Each talk gets an "Add to Calendar" button that downloads an `.ics` file. To
-remove it, delete the `<button class="btn-add-calendar">` element in
+Each dated talk gets an "Add to Calendar" button that downloads an `.ics` file.
+To remove it, delete the `<button class="btn-add-calendar">` element in
 [_includes/talk.html](_includes/talk.html).
 
 ## Setup for GitHub Pages

@@ -29,20 +29,23 @@ layout: default
 <section id="people" class="content-section">
     {% include section_head.html config=home.people %}
 
-    <section id="organisers" class="subsection">
-        {% include section_head.html config=home.organisers level="3" %}
-        {% include people.html people=site.data.people.organisers %}
+    {% comment %}
+    One subsection per group in _data/people.yml, in this order. Each key names
+    both the list in people.yml and its heading block in site.yml. A group with
+    no entries is hidden.
+    {% endcomment %}
+    {% assign no_people = '' | split: ',' %}
+    {% assign groups = 'organisers,core_members,students,affiliate_members' | split: ',' %}
+    {% for group in groups %}
+    {% assign group_people = site.data.people[group] | default: no_people %}
+    {% if group_people.size > 0 %}
+    {% assign group_config = home[group] %}
+    <section id="{{ group | replace: '_', '-' }}" class="subsection">
+        {% include section_head.html config=group_config level="3" %}
+        {% include people.html people=group_people %}
     </section>
-
-    <section id="members" class="subsection">
-        {% include section_head.html config=home.members level="3" %}
-        {% include people.html people=site.data.people.members %}
-    </section>
-
-    <section id="affiliate-members" class="subsection">
-        {% include section_head.html config=home.affiliate_members level="3" %}
-        {% include people.html people=site.data.people.affiliate_members %}
-    </section>
+    {% endif %}
+    {% endfor %}
 </section>
 
 <hr class="divider">
@@ -51,12 +54,10 @@ layout: default
     <h2>{{ home.seminar.heading }}</h2>
     <div class="section-intro">{{ home.seminar.description | markdownify }}</div>
 
-    {% assign organisers = site.data.people.seminar_organiser %}
+    {% assign organisers = site.data.people.seminar_organisers %}
     {% if organisers %}
     <h3 class="subheading">{{ home.seminar.organiser_heading }}</h3>
-    <ul class="people">
-        {% include people.html people=organisers %}
-    </ul>
+    {% include people.html people=organisers %}
     {% endif %}
 
     <h3 class="subheading">{{ home.seminar.upcoming_heading }}</h3>

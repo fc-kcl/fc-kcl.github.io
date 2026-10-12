@@ -1,17 +1,20 @@
 # ---------------------------------------------------------------------------
-# Everyone who appears on the site, in four groups. People are shown in the
+# Everyone who appears on the site, in five groups. People are shown in the
 # order they are listed here.
 #
-#   organisers         -> "Organisers" section on the home page
-#   seminar_organiser  -> seminar organiser, on the home and seminar pages
-#   members            -> "Members" section on the home page
-#   affiliate_members  -> "Affiliate Members" section on the home page
+#   organisers          -> "Organisers" section on the home page
+#   core_members        -> "Core Members" section on the home page
+#   students            -> "Students" section on the home page
+#   affiliate_members   -> "Affiliate Members" section on the home page
+#   seminar_organisers  -> seminar organisers, on the home and seminar pages
+#
+# A group with no entries is hidden on the home page.
 #
 # Fields:
 #   name         required
 #   email        required
-#   role         organisers and seminar_organiser only (e.g. "Group Head")
-#   job_title    optional (members and affiliate members)
+#   role         organisers and seminar_organisers only (e.g. "Group Head")
+#   job_title    optional (core members, students and affiliate members)
 #   website      optional; a personal homepage or KCL profile page, whichever
 #                you would rather link to
 #
@@ -29,18 +32,18 @@ organisers:
     job_title: "Senior Lecturer in Computer Science"
     email: "grigorios.loukides@kcl.ac.uk"
 
-seminar_organiser:
-  - name: "Edwin Lock"
+seminar_organisers:
+  - name: "Dr Edwin Lock"
     role: "Seminar Organiser"
     email: "edwin.lock@kcl.ac.uk"
     website: "https://www.kcl.ac.uk/people/edwin-lock"
   
-  - name: "Rohit Vasishta"
+  - name: "Rohit Prashanth Vasishta"
     role: "Seminar Organiser"
     email: "rohit.vasishta@kcl.ac.uk"
     website: "https://scholar.google.com/citations?user=RhdiZRQAAAAJ&hl=en"
 
-members:
+core_members:
   - name: "Dr Silvia Butti"
     email: "silvia.butti@kcl.ac.uk"
     job_title: "Lecturer in Computer Science"
@@ -61,10 +64,16 @@ members:
     job_title: "Senior Lecturer in Computer Science (Education)"
     website: "https://www.kcl.ac.uk/people/christopher-hampson"
 
+  # TODO: website. It previously pointed at Christopher Hampson's page, and
+  # www.kcl.ac.uk/people/panagiotis-kanellopoulos does not exist.
   - name: "Dr Panagiotis Kanellopoulos"
     email: "panagiotis.kanellopoulos@kcl.ac.uk"
     job_title: "Lecturer in Agent & Multi-Agent Systems"
-    website: "https://www.kcl.ac.uk/people/christopher-hampson"
+
+  - name: "Dr Bart de Keijzer"
+    email: "bart.de_keijzer@kcl.ac.uk"
+    job_title: "Senior Lecturer in Computer Science"
+    website: "https://www.kcl.ac.uk/people/bart-de-keijzer"
 
   - name: "Dr Agi Kurucz"
     email: "agi.kurucz@kcl.ac.uk"
@@ -86,7 +95,7 @@ members:
     job_title: "Senior Lecturer in Computer Science"
     website: "https://www.kcl.ac.uk/people/grigorios-loukides"
   
-  - name: "Frederik Mallmann-Trenn"
+  - name: "Dr Frederik Mallmann-Trenn"
     email: "frederik.mallmann-trenn@kcl.ac.uk"
     job_title: "Senior Lecturer in Computer Science (Data Science)"
     website: "https://www.kcl.ac.uk/people/frederik-mallmann-trenn"
@@ -110,6 +119,20 @@ members:
     email: "carmine.ventre@kcl.ac.uk"
     job_title: "Professor of Computer Science"
     website: "https://www.kcl.ac.uk/people/carmine-ventre"
+
+students:
+  - name: "Rohit Prashanth Vasishta"
+    email: "rohit.vasishta@kcl.ac.uk"
+    job_title: "PhD Student"
+    website: "https://scholar.google.com/citations?user=RhdiZRQAAAAJ&hl=en"
+
+  - name: "Pengxin Bian"
+    email: "pengxin.bian@kcl.ac.uk"
+    job_title: "PhD Student"
+
+  - name: "Hind Almahmoud"
+    email: "hind.almahmoud@kcl.ac.uk"
+    job_title: "PhD Student"
 
 affiliate_members:
   - name: "Dr Mohammad Abdulaziz"

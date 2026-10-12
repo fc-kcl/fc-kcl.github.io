@@ -10,12 +10,10 @@ section: seminar_page
 <section id="seminar-info" class="content-section">
     <div class="description">{{ sp.description | markdownify }}</div>
 
-    {% assign organiser = site.data.people.seminar_organiser %}
-    {% if organiser %}
+    {% assign organisers = site.data.people.seminar_organisers %}
+    {% if organisers %}
     <h3 class="subheading">{{ s.home.seminar.organiser_heading }}</h3>
-    <ul class="people">
-        {% include person.html person=organiser %}
-    </ul>
+    {% include people.html people=organisers %}
     {% endif %}
 </section>
 
