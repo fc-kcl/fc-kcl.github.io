@@ -38,7 +38,7 @@ seminar_organisers:
     email: "edwin.lock@kcl.ac.uk"
     website: "https://www.kcl.ac.uk/people/edwin-lock"
   
-  - name: "Rohit Prashanth Vasishta"
+  - name: "Rohit Vasishta"
     role: "Seminar Organiser"
     email: "rohit.vasishta@kcl.ac.uk"
     website: "https://scholar.google.com/citations?user=RhdiZRQAAAAJ&hl=en"
@@ -94,7 +94,11 @@ core_members:
     email: "grigorios.loukides@kcl.ac.uk"
     job_title: "Senior Lecturer in Computer Science"
     website: "https://www.kcl.ac.uk/people/grigorios-loukides"
-  
+
+  - name: "Zara Lim"
+    email: "zara.lim@kcl.ac.uk"
+    job_title: "Foundation Year Teacher"
+    
   - name: "Dr Frederik Mallmann-Trenn"
     email: "frederik.mallmann-trenn@kcl.ac.uk"
     job_title: "Senior Lecturer in Computer Science (Data Science)"
@@ -110,6 +114,10 @@ core_members:
     job_title: "Professor in Computer Science"
     website: "https://www.kcl.ac.uk/people/tomasz-radzik"
 
+  - name: "Dr Sudarshan Shyam"
+    email: "sudarshan.shyam@kcl.ac.uk"
+    job_title: "Postdoctoral Researcher"
+
   - name: "Dr Kathleen Steinh&ouml;fel"
     email: "kathleen.steinhofel@kcl.ac.uk"
     job_title: "Reader in Computer Science"
@@ -121,19 +129,109 @@ core_members:
     website: "https://www.kcl.ac.uk/people/carmine-ventre"
 
 students:
-  - name: "Rohit Prashanth Vasishta"
-    email: "rohit.vasishta@kcl.ac.uk"
-    job_title: "PhD Student"
-    website: "https://scholar.google.com/citations?user=RhdiZRQAAAAJ&hl=en"
-
-  - name: "Pengxin Bian"
-    email: "pengxin.bian@kcl.ac.uk"
-    job_title: "PhD Student"
-
   - name: "Hind Almahmoud"
     email: "hind.almahmoud@kcl.ac.uk"
     job_title: "PhD Student"
 
+  - name: "Aramdokht Amanabadi"
+    email: "aram.amanabadi@kcl.ac.uk"
+    job_title: "PhD Student"
+  
+  - name: "Hossein Anjidani"
+    email: "hossein.andjidani@kcl.ac.uk"
+    job_title: "PhD Student"
+  
+  - name: "Kristijan Atanasov"
+    email: "kristijan.atanasov@kcl.ac.uk"
+    job_title: "PhD Student"
+
+  - name: "Andrei Bogdan Balcau"
+    email: "andrei-bogdan.1.balcau@kcl.ac.uk"
+    job_title: "PhD Student"
+    
+  - name: "Pengxin Bian"
+    email: "pengxin.bian@kcl.ac.uk"
+    job_title: "PhD Student"
+
+  - name: "Desmond Chan"
+    email: "desmond.chan@kcl.ac.uk"
+    job_title: "PhD Student"
+    
+  - name: "Colin Cleveland"
+    email: "colin.cleveland@kcl.ac.uk"
+    job_title: "PhD Student"
+    website: "https://artermi.github.io/"
+
+  - name: "Stanislaw Hauke"
+    email: "stanislaw.hauke@kcl.ac.uk"
+    job_title: "PhD Student"
+    website: "https://www.stanhauke.co.uk/"
+  
+  - name: "Luka Janjic"
+    email: "luka.janjic@kcl.ac.uk"
+    job_title: "PhD Student"
+    
+  - name: "Chloe Jassur"
+    email: "chloe.jassur@kcl.ac.uk"
+    job_title: "PhD Student"
+
+  - name: "Charalampos Kleitsikas"
+    email: "charalampos.kleitsikas@kcl.ac.uk"
+    job_title: "PhD Student"
+    
+  - name: "Alexander Konev"
+    email: "alexander.konev@kcl.ac.uk"
+    job_title: "PhD Student"
+    
+  - name: "Itoro Liney"
+    email: "itoro.liney@kcl.ac.uk"
+    job_title: "PhD Student"
+  
+  - name: "Rachael McAlister"
+    email: "rachael.mcalister@kcl.ac.uk"
+    job_title: "PhD Student"
+  
+  - name: "Viktoria Novikova"
+    email: "viktoria.novikova@kcl.ac.uk"
+    job_title: "PhD Student"
+
+  - name: "Michelle Nwachukwu"
+    email: "michelle.nwachukwu@kcl.ac.uk"
+    job_title: "PhD Student"
+  
+  - name: "Sriram Bharadwaj Rangarajan"
+    email: "sriram_bharadwaj.rangarajan@kcl.ac.uk"
+    job_title: "PhD Student"
+  
+  - name: "Drew Springham"
+    email: "drew.springham@kcl.ac.uk"
+    job_title: "PhD Student"
+    
+  - name: "Jinyun Tong"
+    email: "jinyun.tong@kcl.ac.uk"
+    job_title: "PhD Student"
+    
+  - name: "Rohit Vasishta"
+    email: "rohit.vasishta@kcl.ac.uk"
+    job_title: "PhD Student"
+    website: "https://scholar.google.com/citations?user=RhdiZRQAAAAJ&hl=en"
+  
+  - name: "Binh Duc Vu"
+    email: "binh.vu@kcl.ac.uk"
+    job_title: "PhD Student"
+  
+  - name: "Junpeng Wang"
+    email: "junpeng.1.wang@kcl.ac.uk"
+    job_title: "PhD Student"
+
+  - name: "Zhuohan Wang"
+    email: "zhuohan.wang@kcl.ac.uk"
+    job_title: "PhD Student"
+  
+  - name: "Fei Wu"
+    email: "fei.wu@kcl.ac.uk"
+    job_title: "PhD Student"
+    
 affiliate_members:
   - name: "Dr Mohammad Abdulaziz"
     email: "mohammad.abdulaziz@kcl.ac.uk"
@@ -145,6 +243,11 @@ affiliate_members:
     job_title: "Chair of Cryptography"
     website: "https://www.kcl.ac.uk/people/martin-albrecht"
 
+  - name: "Dr Simone Colombo"
+    email: "simone.colombo@kcl.ac.uk"
+    job_title: "Postdoctoral Researcher"
+    website: "https://simonecolombo.info/"
+    
   - name: "Prof Maribel Fernandez"
     email: "maribel.fernandez@kcl.ac.uk"
     job_title: "Professor in Computer Science"
@@ -154,12 +257,17 @@ affiliate_members:
     email: "letizia.gionfrida@kcl.ac.uk"
     job_title: "Lecturer in Computer Vision"
     website: "https://www.kcl.ac.uk/people/letizia-gionfrida"
-
+  
+  - name: "Dr David Kohan Marzag&atilde;o"
+    email: "david.kohan@kcl.ac.uk"
+    job_title: "Senior Lecturer in Artificial Intelligence (Academic Education)"
+    website: "https://kohan.uk"
+    
   - name: "Dr Stefanos Leonardos"
     email: "stefanos.leonardos@kcl.ac.uk"
     job_title: "Lecturer in Machine Learning"
     website: "https://www.kcl.ac.uk/people/stefanos-leonardos"
-
+    
   - name: "Prof Peter McBurney"
     email: "peter.mcburney@kcl.ac.uk"
     job_title: "Professor of Computer Science"
