@@ -26,30 +26,6 @@ layout: default
 
 <hr class="divider">
 
-<section id="people" class="content-section">
-    {% include section_head.html config=home.people %}
-
-    {% comment %}
-    One subsection per group in _data/people.yml, in this order. Each key names
-    both the list in people.yml and its heading block in site.yml. A group with
-    no entries is hidden.
-    {% endcomment %}
-    {% assign no_people = '' | split: ',' %}
-    {% assign groups = 'organisers,core_members,students,affiliate_members' | split: ',' %}
-    {% for group in groups %}
-    {% assign group_people = site.data.people[group] | default: no_people %}
-    {% if group_people.size > 0 %}
-    {% assign group_config = home[group] %}
-    <section id="{{ group | replace: '_', '-' }}" class="subsection">
-        {% include section_head.html config=group_config level="3" %}
-        {% include people.html people=group_people %}
-    </section>
-    {% endif %}
-    {% endfor %}
-</section>
-
-<hr class="divider">
-
 <section id="seminar" class="content-section talks-section">
     <h2>{{ home.seminar.heading }}</h2>
     <div class="section-intro">{{ home.seminar.description | markdownify }}</div>
@@ -84,4 +60,28 @@ layout: default
     <p class="section-link">
         <a href="{{ '/seminar/' | relative_url }}" class="btn-link">{{ home.seminar.link_text }}</a>
     </p>
+</section>
+
+<hr class="divider">
+
+<section id="people" class="content-section">
+    {% include section_head.html config=home.people %}
+
+    {% comment %}
+    One subsection per group in _data/people.yml, in this order. Each key names
+    both the list in people.yml and its heading block in site.yml. A group with
+    no entries is hidden.
+    {% endcomment %}
+    {% assign no_people = '' | split: ',' %}
+    {% assign groups = 'organisers,core_members,students,affiliate_members' | split: ',' %}
+    {% for group in groups %}
+    {% assign group_people = site.data.people[group] | default: no_people %}
+    {% if group_people.size > 0 %}
+    {% assign group_config = home[group] %}
+    <section id="{{ group | replace: '_', '-' }}" class="subsection">
+        {% include section_head.html config=group_config level="3" %}
+        {% include people.html people=group_people %}
+    </section>
+    {% endif %}
+    {% endfor %}
 </section>

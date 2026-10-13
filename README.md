@@ -18,9 +18,10 @@ lines for new paragraphs.
 
 ## Pages
 
-- `/` — group home page: description, organisers, core members, students,
-  affiliate members, seminar blurb, and the two talks closest to today (always
-  including the next upcoming one), with a link to the full seminar page.
+- `/` — group home page: description, news, seminar blurb and the two talks
+  closest to today (always including the next upcoming one) with a link to the
+  full seminar page, then organisers, core members, students and affiliate
+  members.
 - `/seminar/` — full seminar page: all upcoming talks (soonest first) followed
   by all past talks (most recent first).
 
