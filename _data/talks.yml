@@ -22,6 +22,13 @@
   person_url: "https://www.essex.ac.uk/people/KANEL33803/Panagiotis-Kanellopoulos"
   paper_url: "https://arxiv.org/abs/2607.21046"
 
+- title: "Beyond External Regret: the Unreasonable Effectiveness of Gradient Ascent"
+  speaker: "Dr. Mete Ahunbay"
+  date: "2026-11-09"
+  time: "12:00-13:00"
+  room: "Bush House (N) 5.11"
+  abstract: "Projected gradient ascent is a simple algorithm for non-convex optimisation and for online learning. In the former case, under mild regularity assumptions the iterates converge to a local optimum. In the latter case, the typical guarantee associated with it is that of no-external regret; no fixed action outperforms the learner's expected utility over the learning trajectory in hindsight. Neither property explains the success of the algorithm in game settings, for our purposes, equilibrium convergence for the resulting dynamics in simple auctions. We call this the \"missing inequalities\" problem - surely, the learning trajectories satisfy constraints stronger than merely no-external regret. Recent work establishes this is precisely the case, and we in fact obtain a full characterisation of these enhanced regret guarantees. Strikingly, in normal-form games, the linear fragment of these guarantees lie strictly between correlated and coarse correlated equilibria, leading to the notion of a \"semicoarse equilibrium\".I shall aim to provide an intuitive account of the above from the perspective of adversarial regret analysis, as well as insights towards refined analysis of learning dynamics. The talk will incorporate elements of own work, one joint with Martin Bichler, and another joint with Weiqiang Zheng & Tao Lin."
+  person_url: "https://mahunbay.info/"
 # EXAMPLES
 # - title: "Optimal Algorithms for Dynamic Graph Connectivity"
 #   speaker: "Dr. Sarah Chen"
