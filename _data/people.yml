@@ -58,7 +58,11 @@ core_members:
     email: "hubie.chen@kcl.ac.uk"
     job_title: "Senior Lecturer"
     website: "https://www.kcl.ac.uk/people/hubie-chen"
-
+    
+  - name: "Dr Marc Delord"
+    email: "marc.delord@kcl.ac.uk"
+    job_title: "Research Fellow"
+    
   - name: "Dr Christopher Hampson"
     email: "christopher.hampson@kcl.ac.uk"
     job_title: "Senior Lecturer in Computer Science (Education)"
@@ -133,6 +137,10 @@ students:
     email: "hind.almahmoud@kcl.ac.uk"
     job_title: "PhD Student"
 
+  - name: "Eman Abdullah Almoaili"
+    email: "eman.almoaili@kcl.ac.uk"
+    job_title: "PhD Student"
+  
   - name: "Aramdokht Amanabadi"
     email: "aram.amanabadi@kcl.ac.uk"
     job_title: "PhD Student"
@@ -166,7 +174,11 @@ students:
     email: "stanislaw.hauke@kcl.ac.uk"
     job_title: "PhD Student"
     website: "https://www.stanhauke.co.uk/"
-  
+    
+  - name: "Jayani Peumila Hewavitharana"
+    email: "jayani.hewavitharana@kcl.ac.uk"
+    job_title: "PhD Student"
+
   - name: "Luka Janjic"
     email: "luka.janjic@kcl.ac.uk"
     job_title: "PhD Student"
@@ -185,6 +197,10 @@ students:
     
   - name: "Itoro Liney"
     email: "itoro.liney@kcl.ac.uk"
+    job_title: "PhD Student"
+
+  - name: "Shirui Lyu"
+    email: "shirui.lyu@kcl.ac.uk"
     job_title: "PhD Student"
   
   - name: "Rachael McAlister"
