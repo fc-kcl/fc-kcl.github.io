@@ -194,6 +194,10 @@ students:
   - name: "Alexander Konev"
     email: "alexander.konev@kcl.ac.uk"
     job_title: "PhD Student"
+
+  - name: "Ling Li"
+    email: "ling.2.li@kcl.ac.uk"
+    job_title: "Ling Li"
     
   - name: "Itoro Liney"
     email: "itoro.liney@kcl.ac.uk"
@@ -235,6 +239,10 @@ students:
   - name: "Binh Duc Vu"
     email: "binh.vu@kcl.ac.uk"
     job_title: "PhD Student"
+
+  - name: "Xinyi Ye"
+    email: "xinyi.ye@kcl.ac.uk"
+    job_title: "PhD Student"
   
   - name: "Junpeng Wang"
     email: "junpeng.1.wang@kcl.ac.uk"
@@ -246,6 +254,10 @@ students:
   
   - name: "Fei Wu"
     email: "fei.wu@kcl.ac.uk"
+    job_title: "PhD Student"
+
+  - name: "Jialong Zhou"
+    email: "jialong.zhou@kcl.ac.uk"
     job_title: "PhD Student"
     
 affiliate_members:
