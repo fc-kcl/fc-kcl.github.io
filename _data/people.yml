@@ -58,7 +58,11 @@ core_members:
     email: "hubie.chen@kcl.ac.uk"
     job_title: "Senior Lecturer"
     website: "https://www.kcl.ac.uk/people/hubie-chen"
-
+    
+  - name: "Dr Marc Delord"
+    email: "marc.delord@kcl.ac.uk"
+    job_title: "Research Fellow"
+    
   - name: "Dr Christopher Hampson"
     email: "christopher.hampson@kcl.ac.uk"
     job_title: "Senior Lecturer in Computer Science (Education)"
@@ -101,7 +105,7 @@ core_members:
     
   - name: "Dr Frederik Mallmann-Trenn"
     email: "frederik.mallmann-trenn@kcl.ac.uk"
-    job_title: "Senior Lecturer in Computer Science (Data Science)"
+    job_title: "Senior Lecturer in Machine Learning"
     website: "https://www.kcl.ac.uk/people/frederik-mallmann-trenn"
     
   - name: "Dr Maria Polukarov"
@@ -133,6 +137,10 @@ students:
     email: "hind.almahmoud@kcl.ac.uk"
     job_title: "PhD Student"
 
+  - name: "Eman Abdullah Almoaili"
+    email: "eman.almoaili@kcl.ac.uk"
+    job_title: "PhD Student"
+  
   - name: "Aramdokht Amanabadi"
     email: "aram.amanabadi@kcl.ac.uk"
     job_title: "PhD Student"
@@ -166,7 +174,11 @@ students:
     email: "stanislaw.hauke@kcl.ac.uk"
     job_title: "PhD Student"
     website: "https://www.stanhauke.co.uk/"
-  
+    
+  - name: "Jayani Peumila Hewavitharana"
+    email: "jayani.hewavitharana@kcl.ac.uk"
+    job_title: "PhD Student"
+
   - name: "Luka Janjic"
     email: "luka.janjic@kcl.ac.uk"
     job_title: "PhD Student"
@@ -182,9 +194,17 @@ students:
   - name: "Alexander Konev"
     email: "alexander.konev@kcl.ac.uk"
     job_title: "PhD Student"
+
+  - name: "Ling Li"
+    email: "ling.2.li@kcl.ac.uk"
+    job_title: "Ling Li"
     
   - name: "Itoro Liney"
     email: "itoro.liney@kcl.ac.uk"
+    job_title: "PhD Student"
+
+  - name: "Shirui Lyu"
+    email: "shirui.lyu@kcl.ac.uk"
     job_title: "PhD Student"
   
   - name: "Rachael McAlister"
@@ -219,6 +239,10 @@ students:
   - name: "Binh Duc Vu"
     email: "binh.vu@kcl.ac.uk"
     job_title: "PhD Student"
+
+  - name: "Xinyi Ye"
+    email: "xinyi.ye@kcl.ac.uk"
+    job_title: "PhD Student"
   
   - name: "Junpeng Wang"
     email: "junpeng.1.wang@kcl.ac.uk"
@@ -230,6 +254,10 @@ students:
   
   - name: "Fei Wu"
     email: "fei.wu@kcl.ac.uk"
+    job_title: "PhD Student"
+
+  - name: "Jialong Zhou"
+    email: "jialong.zhou@kcl.ac.uk"
     job_title: "PhD Student"
     
 affiliate_members:
