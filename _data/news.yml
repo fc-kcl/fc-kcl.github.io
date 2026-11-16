@@ -21,6 +21,31 @@
   link: "https://sites.google.com/view/sequencesworkshop/home"
   link_text: "Website"
 
+- date: "2026-10-22"
+  title: "PLuS Alliance Workshop at UNSW"
+  text: |
+    Dr Kathleen Steinhöfel and her PhD student Jayani Hewavitharana joined PLuS Alliance collaborators Professor Raina MacIntyre and Associate Professor David Heslop from the University of New South Wales (UNSW) and Associate Professor Brian Gerber from Arizona State University (ASU) for a workshop towards building new research collaborations. The workshop was held at UNSW Sydney on 20-22 October and centred on discussions and brainstorming towards building an AI-enabled joint intelligence hub for the early detection of asymmetric threats.
+
+    The workshop was supported by a [Security and Defence+ seed grant](https://securityanddefenceplus.plusalliance.org/new-2026-seed-grants-focus-on-technology-resilience-and-security/) awarded to the project co-leads: Dr Steinhöfel, Professor MacIntyre, Associate Professor Heslop and Associate Professor Gerber. Joined by researchers from the partner universities and invited professionals, the group developed an initial proposal and identified potential funders through short presentations, panel talks and breakout groups.
+
+- date: "2026-10-02"
+  title: "womENcourage 2026 in Nice"
+  text: |
+    Jayani Hewavitharana was one of five PhD students selected by the Department of Informatics to take part in [womENcourage'26](https://womencourage.acm.org/2026/), held at Polytech Nice Sophia, France, on 29 September-2 October. At the conference, she presented a [poster](https://womencourage.acm.org/2026/wp-content/uploads/2026/10/womencourage2026-posters-final14.pdf) on her work published in *Frontiers in Computational Neuroscience*, [Computational analysis of learning in young and ageing brains](https://kclpure.kcl.ac.uk/portal/en/publications/computational-analysis-of-learning-in-young-and-ageing-brains/).
+
+    womENcourage is the ACM-W celebration of women in computing, bringing together students, researchers and professionals from across the field.
+
+- date: "2026-09-17"
+  title: "Ageing Brain Research at ALIFE 2026 and ICANN 2026"
+  text: |
+    Jayani Hewavitharana presented her PhD research on computational analysis of ageing brains at two international conferences, with both papers published in the respective proceedings.
+
+    At [ALIFE 2026](https://2026.alife.org/), held on 17-21 August, Jayani presented her accepted paper, [Simulating Categorical Memory Engram Formation Under Young and Ageing Brain Conditions](https://kclpure.kcl.ac.uk/portal/en/publications/simulating-categorical-memory-engram-formation-under-young-and-ag/). The study compares how memories are formed and organised from categorical inputs in young and ageing brains and shows how prior experience drives the emergence of categorical structure in memory representations.
+
+    At [ICANN 2026](https://e-nns.org/icann2026/), held at the University of Padua, Italy, on 14-17 September, she gave an oral presentation of the paper [Representational Drift in Memory Under Incremental Learning with Local Synaptic Mechanisms](https://kclpure.kcl.ac.uk/portal/en/publications/representational-drift-in-memory-under-incremental-learning-with-/). The paper investigates how two synaptic mechanisms corresponding to young and ageing brains shape memory representations under incremental learning with input interference.
+
+    The research was carried out under the supervision and guidance of Dr Kathleen Steinhöfel and Prof Peter Giese from the King's Institute of Psychiatry, Psychology & Neuroscience (IoPPN).
+
 - date: "2026-08-01"
   title: "Best Paper Award at SAGT'26"
   text: "Congratulations to Edwin Lock (joint with Jugal Garg and Vijay Vazirani) for winning Best Paper at the International Symposium on Algorithmic Game Theory (SAGT) 2026."

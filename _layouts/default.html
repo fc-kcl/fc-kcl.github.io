@@ -1,21 +1,21 @@
 {%- comment -%}
-Page text comes from _data/site.yml. A page selects its block with
+Page text comes from _data/site.yml. A page selects its block with e.g.
 `section: seminar_page` in its front matter; the default is the home page.
+The block supplies `page_title`, `heading` (home uses the site `title`) and an
+optional `tagline` override.
 {%- endcomment -%}
 {%- assign tagline = site.data.site.tagline -%}
-{%- if page.section == 'seminar_page' -%}
-  {%- assign page_title = site.data.site.seminar_page.page_title -%}
-  {%- assign heading = site.data.site.seminar_page.heading -%}
-  {%- unless site.data.site.seminar_page.tagline == nil -%}
-    {%- assign tagline = site.data.site.seminar_page.tagline -%}
-  {%- endunless -%}
+{%- if page.section -%}
+  {%- assign page_config = site.data.site[page.section] -%}
+  {%- assign heading = page_config.heading -%}
 {%- else -%}
-  {%- assign page_title = site.data.site.home.page_title -%}
+  {%- assign page_config = site.data.site.home -%}
   {%- assign heading = site.data.site.title -%}
-  {%- unless site.data.site.home.tagline == nil -%}
-    {%- assign tagline = site.data.site.home.tagline -%}
-  {%- endunless -%}
 {%- endif -%}
+{%- assign page_title = page_config.page_title -%}
+{%- unless page_config.tagline == nil -%}
+  {%- assign tagline = page_config.tagline -%}
+{%- endunless -%}
 <!DOCTYPE html>
 <html lang="en">
 <head>

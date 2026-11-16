@@ -18,12 +18,14 @@ lines for new paragraphs.
 
 ## Pages
 
-- `/` — group home page: description, news, seminar blurb and the two talks
+- `/` — group home page: description, the latest news with a link to the full
+  news page, seminar blurb and the two talks
   closest to today (always including the next upcoming one) with a link to the
   full seminar page, then organisers, core members, students and affiliate
   members.
 - `/seminar/` — full seminar page: all upcoming talks (soonest first) followed
   by all past talks (most recent first).
+- `/news/` — every news item, most recent first.
 
 ## Adding a member
 
@@ -60,8 +62,9 @@ Add an entry to `_data/news.yml`:
 ```
 
 Items are sorted by date, most recent first. The home page shows the newest
-`home.news.limit` items (set it to `0` in `_data/site.yml` to show all). Delete
-every entry to hide the News section entirely.
+`home.news.limit` items (set it to `0` in `_data/site.yml` to show all), with a
+button to the `/news/` page listing every item. Delete every entry to hide the
+News section on the home page.
 
 ## Adding a talk
 
@@ -113,7 +116,8 @@ Visit `http://localhost:4000`.
 - **Colours:** the KCL red `#C8102E` and link blue `#2c5282` in
   [assets/css/style.css](assets/css/style.css).
 - **Layout:** [_layouts/default.html](_layouts/default.html) (shared header and
-  footer), [index.html](index.html), [seminar.html](seminar.html).
+  footer), [index.html](index.html), [seminar.html](seminar.html),
+  [news.html](news.html).
 - **Reusable pieces:** [_includes/talk.html](_includes/talk.html) (one talk),
   [_includes/talk_lists.html](_includes/talk_lists.html) (splits talks into
   `upcoming` and `past`), [_includes/people.html](_includes/people.html) (a list

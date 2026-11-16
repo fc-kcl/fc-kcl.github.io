@@ -1,0 +1,28 @@
+---
+layout: default
+permalink: /news/
+section: news_page
+---
+
+{%- assign np = site.data.site.news_page -%}
+
+{% comment %}site.data.news is false when the file is empty or fully commented out.{% endcomment %}
+{% assign no_news = '' | split: ',' %}
+{% assign news_data = site.data.news | default: no_news %}
+
+<section id="news" class="content-section">
+    {% if np.description and np.description != "" %}
+    <div class="description">{{ np.description | markdownify }}</div>
+    {% endif %}
+
+    {% if news_data.size > 0 %}
+        {% assign news_items = news_data | sort: 'date' | reverse %}
+        {% include news.html items=news_items %}
+    {% else %}
+        <p class="no-talks">{{ np.no_news }}</p>
+    {% endif %}
+</section>
+
+<p class="section-link">
+    <a href="{{ '/' | relative_url }}" class="btn-link">{{ np.back_link_text }}</a>
+</p>

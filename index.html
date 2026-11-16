@@ -21,6 +21,10 @@ layout: default
         {% assign news_items = news_items | slice: 0, home.news.limit %}
     {% endif %}
     {% include news.html items=news_items %}
+
+    <p class="section-link">
+        <a href="{{ '/news/' | relative_url }}" class="btn-link">{{ home.news.link_text }}</a>
+    </p>
 </section>
 {% endif %}
 

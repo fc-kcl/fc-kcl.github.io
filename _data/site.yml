@@ -48,7 +48,9 @@ home:
     heading: "News"
     intro: ""
     # Show at most this many items on the home page (0 or omitted = show all).
-    limit: 3
+    limit: 4
+    # Link to the full news page, shown below the items.
+    link_text: "See all news"
 
   # The "People" section wraps the four lists below it. Each list is hidden
   # while its group in _data/people.yml has no entries.
@@ -123,6 +125,27 @@ seminar_page:
 
   no_upcoming: "No upcoming talks scheduled at the moment. Check back soon!"
   no_past: "No past talks to show yet."
+
+  # Link back to the group home page.
+  back_link_text: "Back to the Foundations of Computing group"
+
+# -------------------------------- News page --------------------------------
+news_page:
+  # Browser tab title for the news page.
+  page_title: "News — Foundations of Computing, Department of Informatics, King's College London"
+
+  # Main heading on the news page.
+  heading: "Foundations of Computing News"
+
+  # Small line under the heading. Omit to use the site-wide tagline; set to ""
+  # to hide it.
+  # tagline: ""
+
+  # Optional paragraph above the news items.
+  description: ""
+
+  # Text shown when _data/news.yml has no entries.
+  no_news: "No news to show yet."
 
   # Link back to the group home page.
   back_link_text: "Back to the Foundations of Computing group"
