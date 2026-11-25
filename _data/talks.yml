@@ -13,6 +13,15 @@
 # The [] below is an empty list, and keeps the file valid while there are no
 # talks. Delete it as soon as you add a real entry.
 
+- title: "Proportional Selection in Networks"
+  speaker: "Dr. Tomasz Wąs"
+  date: "2026-12-07"
+  time: "12:00-13:00"
+  room: "Bush House (N) 5.11"
+  abstract: "We address the problem of selecting k representative nodes from a network, aiming to simultaneously achieve two objectives: identifying the most influential nodes and ensuring that the selection proportionally reflects the diversity within the network. We propose a general approach to accomplish this by combining ideas from network science and computational social choice. Notably, our algorithms depend only on the connections between nodes and do not utilize any additional information that would explicitly identify groups of nodes. We analyze them theoretically, and demonstrate their effectiveness through a series of experiments."
+  person_url: "https://www.mimuw.edu.pl/~twas/"
+  paper_url: "https://arxiv.org/abs/2502.03545"
+  
 - title: "Truthful Two-Facility Location with Heterogeneous Preferences"
   speaker: "Dr. Panagiotis Kanellopoulos"
   date: "2026-10-26"
